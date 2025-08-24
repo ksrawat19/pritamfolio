@@ -29,7 +29,8 @@
 
 .hero-intro {
   font-family: "Luckiest Guy", cursive;
-  font-size: clamp(5rem, 10vw, 10rem);
+  font-size: clamp(5rem, 9.2vw, 10rem);
+
   color: #fff;
   letter-spacing: 3px;
   line-height: 1.1;
