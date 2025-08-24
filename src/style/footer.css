@@ -171,7 +171,9 @@
     gap: 1.5rem;
   }
 
-  .footer-brand,
+  .footer-brand {
+    display: none;
+  }
   .footer-social,
   .footer-contact {
     flex: 1 1 100%;
