@@ -1,15 +1,36 @@
-import "../style/navbar.css"
+import { useState } from 'react';
+import "../style/navbar.css";
 
 const Navbar = () => {
-    return (
-        <nav className="navbar">
-            <ul className="navbar-list">
-                <li className="navbar-item">Home</li>
-                <li className="navbar-item">Projects</li>
-                <li className="navbar-item">About</li>
-                <li className="navbar-item">Contact</li>
-            </ul>
-        </nav>
-    );
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <nav className="navbar">
+      <button className={`navbar-toggle ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>
+        <div className="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+      <ul className={`navbar-list ${isOpen ? 'active' : ''}`}>
+        {['Home', 'Projects', 'About', 'Contact'].map((item, index) => (
+          <li
+            key={item}
+            className="navbar-item"
+            style={{ '--i': index }}
+            onClick={() => setIsOpen(false)}
+          >
+            {item}
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
 };
+
 export default Navbar;
