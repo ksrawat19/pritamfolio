@@ -8,7 +8,7 @@ const Hero = () => {
             <div className="hero-content">
                 <div className="hero-description">
                     <p>
-                        A video editor who believes every story deserves to be told beautifully - editing with rhythm, soul, and intention.
+                        A video editor who believes every story deserves to be told beautifully — shaping each moment with clarity, emotion, and cinematic rhythm.
                     </p>
                 </div>
                 <div className="hero-cta">

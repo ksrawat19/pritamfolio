@@ -7,7 +7,7 @@
 }
 
 .footer {
-  background: linear-gradient(180deg, #121212 0%, #1a1a1a 100%);
+  background: linear-gradient(180deg, #000 0%, #1a1a1a 100%);
   border-top-left-radius: clamp(30px, 5vw, 50px);
   border-top-right-radius: clamp(30px, 5vw, 50px);
   display: flex;

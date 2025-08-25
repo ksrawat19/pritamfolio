@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Sansation:wght@300;400;700&display=swap');
 
 .contact-wrapper {
-  background-color: #121212;
+  background-color: #000;
 }
 .contact-section {
   width: 100%;
@@ -31,7 +31,7 @@
 .contact-title {
   font-family: "Luckiest Guy", cursive;
   font-size: clamp(4rem, 6vw, 7rem);
-  color: #121212;
+  color: #000;
   line-height: 1.1;
   letter-spacing: 2px;
   margin-bottom: 1rem;
