@@ -10,6 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
+      <div className="navbar-brand">RAWAT</div>
       <button className={`navbar-toggle ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>
         <div className="hamburger">
           <span></span>
